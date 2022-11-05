@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color:rgb(17, 86,102);
+    --primary-color-darker: rgb(9, 48,56); /*variaveis cores*/
+    --primary-color-active: rgb(3, 11, 59);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+.apagar{ /* style botão apagar */
+    border: none;
+    background: red;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+}
+h1{ /* style cabeçalho*/
+    text-align: center;
+    color: var(--primary-color)
+}
+
+body{ /* style corpo*/
+    margin: 10%;
+    padding: 0;
+    background:var(--primary-color) ;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.contatos{/*style valores*/
+    color: var(--primary-color-darker);
+    font-size: 1em;
+}
+input{/* style do input nome e telefone*/
+    max-width: 300px;
+    background: #fff;
+    padding: 5px;
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.container { /*style section*/ 
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+.btn{/*style botão adicionar contato*/
+    border: none;
+    background: var(--primary-color);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
